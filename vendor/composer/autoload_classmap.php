@@ -6,8 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AddApiTokenToUsers' => $baseDir . '/database/migrations/2018_10_04_121450_add_api_token_to_users.php',
+    'AddVerificationToUsersTable' => $baseDir . '/database/migrations/2018_10_04_153940_add_verification_to_users_table.php',
     'ArithmeticError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
     'AssertionError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
+    'ClientsTableSeeder' => $baseDir . '/database/seeds/ClientsTableSeeder.php',
+    'CreateClientsTable' => $baseDir . '/database/migrations/2018_10_04_191909_create_clients_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2018_10_03_222247_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'DivisionByZeroError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',

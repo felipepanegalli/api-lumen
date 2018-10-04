@@ -12,6 +12,7 @@ class ComposerStaticInit25c9591d0d51a2d25172337ab08e88a9
         '023d27dca8066ef29e6739335ea73bad' => __DIR__ . '/..' . '/symfony/polyfill-php70/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '1d1b89d124cc9cb8219922c9d5569199' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest.php',
+        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         'bee9632da3ca00a99623b9c35d0c4f8b' => __DIR__ . '/..' . '/laravel/lumen-framework/src/helpers.php',
@@ -26,6 +27,10 @@ class ComposerStaticInit25c9591d0d51a2d25172337ab08e88a9
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'T' => 
+        array (
+            'TijsVerkoyen\\CssToInlineStyles\\' => 31,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php70\\' => 23,
@@ -38,7 +43,12 @@ class ComposerStaticInit25c9591d0d51a2d25172337ab08e88a9
             'Symfony\\Component\\Finder\\' => 25,
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\Debug\\' => 24,
+            'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+        ),
+        'R' => 
+        array (
+            'Ramsey\\Uuid\\' => 12,
         ),
         'P' => 
         array (
@@ -64,6 +74,8 @@ class ComposerStaticInit25c9591d0d51a2d25172337ab08e88a9
             'Illuminate\\Queue\\' => 17,
             'Illuminate\\Pipeline\\' => 20,
             'Illuminate\\Pagination\\' => 22,
+            'Illuminate\\Notifications\\' => 25,
+            'Illuminate\\Mail\\' => 16,
             'Illuminate\\Http\\' => 16,
             'Illuminate\\Hashing\\' => 19,
             'Illuminate\\Filesystem\\' => 22,
@@ -84,11 +96,17 @@ class ComposerStaticInit25c9591d0d51a2d25172337ab08e88a9
             'FastRoute\\' => 10,
             'Faker\\' => 6,
         ),
+        'E' => 
+        array (
+            'Egulias\\EmailValidator\\' => 23,
+        ),
         'D' => 
         array (
             'Dotenv\\' => 7,
             'Doctrine\\Instantiator\\' => 22,
             'Doctrine\\Common\\Inflector\\' => 26,
+            'Doctrine\\Common\\Cache\\' => 22,
+            'Doctrine\\Common\\' => 16,
             'DeepCopy\\' => 9,
         ),
         'C' => 
@@ -111,6 +129,10 @@ class ComposerStaticInit25c9591d0d51a2d25172337ab08e88a9
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'TijsVerkoyen\\CssToInlineStyles\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src',
         ),
         'Symfony\\Polyfill\\Php70\\' => 
         array (
@@ -152,9 +174,17 @@ class ComposerStaticInit25c9591d0d51a2d25172337ab08e88a9
         array (
             0 => __DIR__ . '/..' . '/symfony/debug',
         ),
+        'Symfony\\Component\\CssSelector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/css-selector',
+        ),
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Ramsey\\Uuid\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ramsey/uuid/src',
         ),
         'Psr\\SimpleCache\\' => 
         array (
@@ -207,6 +237,14 @@ class ComposerStaticInit25c9591d0d51a2d25172337ab08e88a9
         'Illuminate\\Pagination\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/pagination',
+        ),
+        'Illuminate\\Notifications\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/notifications',
+        ),
+        'Illuminate\\Mail\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/mail',
         ),
         'Illuminate\\Http\\' => 
         array (
@@ -272,6 +310,10 @@ class ComposerStaticInit25c9591d0d51a2d25172337ab08e88a9
         array (
             0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
         ),
+        'Egulias\\EmailValidator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator',
+        ),
         'Dotenv\\' => 
         array (
             0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
@@ -283,6 +325,14 @@ class ComposerStaticInit25c9591d0d51a2d25172337ab08e88a9
         'Doctrine\\Common\\Inflector\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
+        ),
+        'Doctrine\\Common\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
+        ),
+        'Doctrine\\Common\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/event-manager/lib/Doctrine/Common',
         ),
         'DeepCopy\\' => 
         array (
@@ -309,6 +359,10 @@ class ComposerStaticInit25c9591d0d51a2d25172337ab08e88a9
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
             ),
+            'Parsedown' => 
+            array (
+                0 => __DIR__ . '/..' . '/erusev/parsedown',
+            ),
         ),
         'M' => 
         array (
@@ -317,11 +371,26 @@ class ComposerStaticInit25c9591d0d51a2d25172337ab08e88a9
                 0 => __DIR__ . '/..' . '/mockery/mockery/library',
             ),
         ),
+        'D' => 
+        array (
+            'Doctrine\\DBAL\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/dbal/lib',
+            ),
+            'Doctrine\\Common\\Lexer\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/lexer/lib',
+            ),
+        ),
     );
 
     public static $classMap = array (
+        'AddApiTokenToUsers' => __DIR__ . '/../..' . '/database/migrations/2018_10_04_121450_add_api_token_to_users.php',
+        'AddVerificationToUsersTable' => __DIR__ . '/../..' . '/database/migrations/2018_10_04_153940_add_verification_to_users_table.php',
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
         'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
+        'ClientsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/ClientsTableSeeder.php',
+        'CreateClientsTable' => __DIR__ . '/../..' . '/database/migrations/2018_10_04_191909_create_clients_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2018_10_03_222247_create_users_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'DivisionByZeroError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',
